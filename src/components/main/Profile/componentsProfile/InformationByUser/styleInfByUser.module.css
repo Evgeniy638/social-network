@@ -1,0 +1,43 @@
+.wrap{
+     background-color: #fff;
+     color: black;
+     margin-bottom: 10px;
+     padding: 10px;
+     display: grid;
+     grid-template-areas: 
+          "avatar status"
+          "nameAndSurname status"
+          "location status";
+     grid-template-columns: 270px 1fr;
+     grid-row-gap: 10px;
+}
+
+.avatar{
+     grid-area: avatar;
+     height: 250px;
+     width: 250px;
+}
+
+.nameAndSurname{
+     grid-area: nameAndSurname;
+}
+
+.location{
+     grid-area: location;
+     text-align: start;
+}
+
+.status{
+     grid-area: status;
+     cursor: pointer;
+}
+
+.writeMessage{
+     text-decoration: none;
+     color: black;
+}
+
+.writeMessage:visited{
+     text-decoration: none;
+     color: black;
+}

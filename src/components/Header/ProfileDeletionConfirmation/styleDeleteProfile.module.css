@@ -1,0 +1,60 @@
+.wrap{
+     position: fixed;
+     top: 0;
+     left: 0;
+     background-color: rgba(74, 74, 230, 0.5);
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center
+}
+
+.confirm{
+     width: 250px;
+     height: 100px;
+     background-color: #fff;
+     color: black;
+     border-radius: 20px;
+     padding: 25px;
+     display: grid;
+     grid-template-areas:
+          "question question"
+          "yes no";
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 60px 1fr;
+}
+
+.confirm div{
+     margin-bottom: 15px
+}
+
+.answer{
+     text-align: center;
+}
+
+.answer span{
+     cursor: pointer;
+     border-radius: 10px;
+     padding: 5px 10px;
+}
+
+.yes span{
+     background-color: green;
+}
+
+.no span{
+     background-color: red;
+}
+
+.question{
+     grid-area: question
+}
+
+.answer.no{
+     grid-area: no
+}
+
+.answer.yes{
+     grid-area: yes
+}

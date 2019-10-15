@@ -1,0 +1,8 @@
+.wrap{
+     padding: 10px;
+     grid-area: messages;
+     overflow: auto;
+     max-height: 56vh;
+     border: 1px solid black
+
+}

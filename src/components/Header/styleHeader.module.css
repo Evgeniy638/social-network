@@ -1,0 +1,66 @@
+.wrap{
+     grid-area: Header;
+     background: #4a76a8;
+     color: white;
+}
+
+.wrap{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.wrap img{
+     margin-right: 10px;
+     cursor: pointer;
+}
+
+.userName{
+     cursor: pointer;
+     margin-right: 10px;
+}
+
+.menu{
+     cursor: pointer;
+     position: fixed;
+     top: 42px;
+     background: white;
+     color: black;
+     width: 150px;
+}
+.menu div{
+     padding: 3px;
+     border: 0.25px solid black;
+     border-collapse: collapse;
+     box-sizing: border-box
+}
+
+.menu div:hover{
+     background-color: rgb(255, 223, 82);
+}
+
+.menu div:first-child{
+     border-bottom-width: 0px
+}
+
+.wrap a{
+     text-decoration: none;
+}
+
+.wrap a:visited{
+     color: white;
+}
+
+.wrap a:link{
+     color: white;
+}
+
+.avatar{
+     width: 35px;
+     height: 35px;
+     border-radius: 50%;
+}
+
+.enter{
+     margin-right: 10px;
+}

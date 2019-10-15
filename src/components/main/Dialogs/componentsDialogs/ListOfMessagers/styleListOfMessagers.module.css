@@ -1,0 +1,19 @@
+.wrap{
+     margin: 10px;
+     grid-area: list;
+}
+
+.wrap a{
+     text-decoration: none;
+     color: black;
+}
+
+.wrap a.active{
+     border-bottom: 1px solid black;
+}
+
+.noDialogs{
+     position: absolute;
+     top:45%;
+     left: 50%;
+}

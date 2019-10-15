@@ -1,0 +1,33 @@
+.wrap{
+     grid-area: leftS;
+     background: #4a76a8;
+}
+
+
+.wrap a{
+     text-decoration: none;
+}
+
+.wrap a:visited{
+     color: white;
+}
+
+.wrap a:link{
+     color: white;
+}
+
+
+ul{
+     padding: 0;
+     text-align: center;
+     list-style: none;
+     color: black;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 15pt;
+}
+
+.active{
+     color: black;
+     background-color: rgb(60, 59, 163);
+     padding: 3px;
+}

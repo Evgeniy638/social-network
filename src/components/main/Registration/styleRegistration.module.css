@@ -1,0 +1,13 @@
+.wrap{
+     background-color: #fff;
+     padding: 10px;
+     color: black
+}
+
+.error{
+     margin-top: 10px;
+}
+
+.wrap button{
+     margin-top: 10px
+}

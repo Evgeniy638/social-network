@@ -1,0 +1,5 @@
+.wrap{
+     grid-area: footer;
+     background: rgb(46, 56, 150);
+     color: white;
+}

@@ -1,0 +1,22 @@
+body{
+     background-color:#c5d2ec;
+     color: #709efa;
+}
+
+.app-content-wraper{
+     grid-area: main;
+}
+
+.App-wraper{
+     margin-left:5%;
+     margin-right: 5%;
+     display: grid;
+     grid-template-areas: 
+          "Header Header"
+          "leftS main"
+          "footer footer";
+     grid-template-rows: 42px 1fr 84px;
+     grid-template-columns:149px 1fr;
+     grid-gap: 16px;
+     min-height: 100vh;
+}

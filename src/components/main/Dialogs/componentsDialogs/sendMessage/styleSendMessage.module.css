@@ -1,0 +1,18 @@
+.wrap{
+     margin: 10px;
+     grid-area: sendMessage;
+     text-align: end;
+}
+
+.wrap textarea{
+     resize: none;
+     width: 60%;
+     min-height: 40px;
+}
+
+.errorMessage{
+     color: red;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}

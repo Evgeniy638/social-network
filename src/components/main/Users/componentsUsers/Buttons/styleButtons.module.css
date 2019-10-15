@@ -1,0 +1,15 @@
+.wrap{
+     background-color: #fff;
+     color: black;
+     margin-bottom: 10px;
+     padding: 10px;
+}
+
+.currentPage{
+     color: red
+}
+
+.wrap span{
+     padding-right: 10px;
+     cursor: pointer;
+}

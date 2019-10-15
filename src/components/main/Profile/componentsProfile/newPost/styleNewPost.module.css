@@ -1,0 +1,12 @@
+.wrap{
+     background-color: white;
+     margin-bottom: 10px;
+     padding: 10px;
+}
+
+
+.wrap textarea{
+     resize: none;
+     width: 60%;
+     min-height: 40px;
+}

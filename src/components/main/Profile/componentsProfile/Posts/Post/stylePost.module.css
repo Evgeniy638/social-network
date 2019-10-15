@@ -1,0 +1,19 @@
+.post{
+     padding: 10px;
+     background-color: white;
+     color: black;
+     margin-bottom: 15px;
+}
+
+.like{
+     cursor: pointer;
+}
+
+.likePhoto{
+     height: 18pt;
+}
+
+.avatar img{
+     height: 30pt;
+     border-radius: 50%;
+}

@@ -1,0 +1,11 @@
+.wrap{
+     height: 100%;
+     background-color: white;
+     color: black;
+     display: grid;
+     grid-template-columns: 1fr 4fr;
+     grid-template-rows: 4fr 1fr;
+     grid-template-areas: 
+          "list messages"
+          "list sendMessage";
+}

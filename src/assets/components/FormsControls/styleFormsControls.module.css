@@ -1,0 +1,30 @@
+.left{
+     display: flex;
+     justify-content: flex-start;
+}
+
+.right{
+     display: flex;
+     justify-content: flex-end;
+}
+
+.error .component{
+     border: 2px solid red;
+     box-sizing: border-box
+}
+
+.errorMessage{
+     max-width: 40%;
+     background-color: rgb(255, 123, 123);
+     color: red;
+     border: 1px solid red;
+     padding: 10px
+}
+
+.left .errorMessage{
+     margin-left: 10px;
+}
+
+.right .errorMessage{
+     margin-right: 10px;
+}
