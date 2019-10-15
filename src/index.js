@@ -3,17 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import store from "./bll/store-redux";
-import { BrowserRouter } from "react-router-dom"
+import { HashRouter } from "react-router-dom"
 import { Provider } from "react-redux"
 import AppContainer from './AppContainer';
 
 
 ReactDOM.render(
-     <BrowserRouter>
+     <HashRouter>
           <Provider store={store}>
                <AppContainer />
           </Provider>
-     </BrowserRouter>
+     </HashRouter>
      ,
      document.getElementById('root')
 )
