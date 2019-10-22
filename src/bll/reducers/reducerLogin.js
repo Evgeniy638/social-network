@@ -84,7 +84,7 @@ export const confirmDeleteProfileShow = () => ({ type: CONFIRM_DELETE_PROFILE_SH
 export const confirmDeleteProfileHide = () => ({ type: CONFIRM_DELETE_PROFILE_HIDE })
 
 export const loginUserThunkCreator = (login, password) => async (dispatch) => {
-     let data = loginApi.loginByPasswordAndLogin(login, password)
+     let data = await loginApi.loginByPasswordAndLogin(login, password)
      
      if (data.error) {
           dispatch(stopSubmit("Login", { _error: data.message }))
