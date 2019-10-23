@@ -117,7 +117,6 @@ export const loginByCookieIdThunkCreator = () => async (dispatch) => {
 
 export const logoutThunkCreator = () => {
      return (dispatch) => {
-          debugger
           loginApi.logout().then(
                data => {
                     dispatch(logoutActionCreator())
