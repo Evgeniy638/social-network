@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Краткое описание
 Это frontend часть social-network(фронтенд часть можно найти на моем github, название 
-backend_social_network), который я делал летом 2019 года. База данных - mongodb, установлена у меня локально на компьютере. В конце лета 2019 года были реализованы не все что я хотел(пошел учиться в университет), однако возможны баги(которые я упустил).
+backend_social_network), который я делал летом 2019 года. База данных - mongodb, установлена у меня локально на компьютере.
 
 ## Available Scripts
 
